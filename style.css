@@ -1,11 +1,12 @@
 @font-face {
-  font-family: Cursedtimer;
+  font-family: CursedTimer;
   src: url(assets/fonts/CursedTimerUlil-Aznm.ttf)
 }
 
 body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 
 .container {
@@ -16,4 +17,21 @@ body {
   justify-content: space-around;
   background-color: #1B244A;
   color: white;
+}
+
+.container h3 {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+#home-scorebox {
+  width: 155px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #080001;
+  color: #F94F6D;
+  font-family: CursedTimer, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 5.625rem;
 }
