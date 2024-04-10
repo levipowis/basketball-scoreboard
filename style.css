@@ -36,3 +36,21 @@ body {
   font-family: CursedTimer, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 5.625rem;
 }
+
+.score-btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 155px;
+}
+
+.score-btn {
+  width: 45px;
+  height: 45px;
+  color: #9AABD8;
+  font-family: CursedTimer;
+  font-size: 1.125rem;
+  background: transparent;
+  border: 1px solid #9AABD8;
+  border-radius: 6px;
+}
