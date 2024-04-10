@@ -1,8 +1,16 @@
+@font-face {
+  font-family: Cursedtimer;
+  src: url(assets/fonts/CursedTimerUlil-Aznm.ttf)
+}
+
 body {
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
+  width: 575px;
+  margin: 50px auto;
   display: flex;
   justify-content: space-around;
 }
