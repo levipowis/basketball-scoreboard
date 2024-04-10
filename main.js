@@ -7,3 +7,5 @@ let homeScoreEl = document.getElementById("home-score");
 let guestScoreEl = document.getElementById("guest-score");
 
 // Set textContent for home-score and guest-score to the homeScore and guestScore
+homeScoreEl.textContent = homeScore;
+guestScoreEl.textContent = guestScore;
