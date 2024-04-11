@@ -22,7 +22,7 @@ body {
 .container h3 {
   font-size: 2.5rem;
   margin-bottom: 12px;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .scorebox {
@@ -35,6 +35,26 @@ body {
   color: #F94F6D;
   font-family: CursedTimer, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 5.625rem;
+}
+
+#period {
+  margin-top: 220px;
+}
+
+#period h4 {
+  margin-bottom: 12px;
+}
+
+#period-box {
+  width: 75px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #080001;
+  color: #F94F6D;
+  font-family: CursedTimer, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
 }
 
 .score-btn-group {
