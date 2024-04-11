@@ -24,8 +24,11 @@ const guestPlus1Btn = document.getElementById("guestPlus1");
 const guestPlus2Btn = document.getElementById("guestPlus2");
 const guestPlus3Btn = document.getElementById("guestPlus3");
 
-// New period button
+// New Period button
 const newPeriodBtn = document.getElementById("new-period-btn");
+
+// New Game button
+const newGameBtn = document.getElementById("new-game-btn");
 
 // Functions to increase score and update textContent of homeScoreEl
 function homePlus1() {
@@ -65,6 +68,17 @@ function newPeriod() {
   periodEl.textContent = period;
 }
 
+// Function to start new game
+function newGame() {
+  homeScore = 0;
+  guestScore = 0;
+  period = 1;
+
+  homeScoreEl.textContent = homeScore;
+  guestScoreEl.textContent = guestScore;
+  periodEl.textContent = period;
+}
+
 // Event listeners for home buttons
 homePlus1Btn.addEventListener("click", homePlus1);
 homePlus2Btn.addEventListener("click", homePlus2);
@@ -77,3 +91,6 @@ guestPlus3Btn.addEventListener("click", guestPlus3);
 
 // Event listener for new period button
 newPeriodBtn.addEventListener("click", newPeriod);
+
+// Event listner for new game button
+newGameBtn.addEventListener("click", newGame);
