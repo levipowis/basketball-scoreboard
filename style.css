@@ -37,8 +37,11 @@ body {
   font-size: 5.625rem;
 }
 
+#period-wrapper {
+  margin-top: 180px;
+}
+
 #period-wrapper h4 {
-  margin-top: 220px;
   margin-bottom: 12px;
 }
 
