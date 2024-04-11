@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="container">
-    <div class="wrapper">
+    <div>
         <h3>HOME</h3>
         <div class="scorebox" id="home-score"></div>
         <div class="score-btn-group">
@@ -16,8 +16,12 @@
           <button class="score-btn" id="homePlus2">+2</button>
           <button class="score-btn" id="homePlus3">+3</button>
         </div>
+        <div>
+          <button id="new-period-btn">New Period</button>
+        </div>
     </div>
-    <div class="wrapper">
+    <div id="period-box">1</div>
+    <div>
         <h3>GUEST</h3>
         <div class="scorebox" id="guest-score"></div>
         <div class="score-btn-group">
@@ -25,7 +29,10 @@
           <button class="score-btn" id="guestPlus2">+2</button>
           <button class="score-btn" id="guestPlus3">+3</button>
         </div>
-    </div>
+        <div>
+          <button id="new-game-btn">New Game</button>
+        </div>
+      </div>
   </div>
   <script src="main.js"></script>
 </body>
